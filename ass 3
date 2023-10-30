@@ -1,0 +1,51 @@
+amount=int(input())
+tth=0
+fh=0
+th=0
+oh=0
+fifty=0
+twenty=0
+ten=0
+five=0
+two=0
+one=0
+while(amount>=2000):
+    tth=tth+1
+    amount=amount-2000
+while(amount>=500):
+    fh=fh+1
+    amount=amount-500
+while(amount>=200):
+    th=th+1
+    amount=amount-200
+while(amount>=100):
+    oh=oh+1
+    amount=amount-100
+while(amount>=50):
+    fifty=fifty+1
+    amount=amount-50
+while(amount>=20):
+    twenty=twenty+1
+    amount=amount-20
+while(amount>=10):
+    ten=ten+1
+    amount=amount-10
+while(amount>=5):
+    five=five+1
+    amount=amount-5
+while(amount>=2):
+    two=two+1
+    amount=amount-2
+while(amount>=1):
+    one=one+1
+    amount=amount-1
+print('2000:',tth)
+print('500:',fh)
+print('200:',th)
+print('100:',oh)
+print('50:',fifty)
+print('20:',twenty)
+print('10:',ten)
+print('5:',five)
+print('2:',two)
+print('1:',one)
